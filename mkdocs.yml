@@ -1,0 +1,15 @@
+site_name: Documentación del Proyecto
+theme:
+  name: readthedocs
+
+nav:
+  - Manual de Usuario: docs_src/Manual_de_Usuario.md
+  - Guía de Referencia: docs_src/Guia_de_Referencia.md
+  - Guía de Instalación: docs_src/Guia_de_Instalacion.md
+
+plugins:
+  - with-pdf:
+      output_path: "pdf/documentation.pdf"
+
+docs_dir: docs_src
+
