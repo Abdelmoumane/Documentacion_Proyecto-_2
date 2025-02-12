@@ -3,13 +3,12 @@ theme:
   name: readthedocs
 
 nav:
-  - Manual de Usuario: docs_src/Manual_de_Usuario.md
-  - Guía de Referencia: docs_src/Guia_de_Referencia.md
-  - Guía de Instalación: docs_src/Guia_de_Instalacion.md
+  - Manual de Usuario: Manual_de_Usuario.md
+  - Guía de Referencia: Guia_de_Referencia.md
+  - Guía de Instalación: Guia_de_Instalacion.md
 
 plugins:
   - with-pdf:
-      output_path: "pdf/documentation.pdf"
+      output_path: "pdf/documentation.pdf"  # Ensure this points to a file
 
 docs_dir: docs_src
-
