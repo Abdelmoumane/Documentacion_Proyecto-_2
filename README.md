@@ -13,5 +13,4 @@ Esto iniciará un servidor local al que puedes acceder en [http://127.0.0.1:8000
 
 Puedes ver la documentación en vivo aquí:
 
-[https://Abdelmoumane.github.io/Documentacion_Proyecto-_2/
-](https://Abdelmoumane.github.io/Documentacion_Proyecto-_2/)
+[https://Abdelmoumane.github.io/Documentacion_Proyecto-_2/](https://Abdelmoumane.github.io/Documentacion_Proyecto-_2/)
