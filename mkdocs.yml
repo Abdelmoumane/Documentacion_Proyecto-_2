@@ -1,16 +1,18 @@
 site_name: Documentación del Proyecto
 theme:
-  name: readthedocs
+  name: material
 
 nav:
-  - Manual de Usuario: Manual_de_Usuario.md
-  - Guía de Referencia: Guia_de_Referencia.md
-  - Guía de Instalación: Guia_de_Instalacion.md
+  - "Manual de Usuario": "docs_src/Manual_de_Usuario.md"
+  - "Guía de Referencia": "docs_src/Guia_de_Referencia.md"
+  - "Guía de Instalación": "docs_src/Guia_de_Instalacion.md"
 
-plugins:
-  - search
-  - with-pdf:
-      output_path: "site/pdf"
-      separate_pdfs: true
+markdown_extensions:
+  - toc:
+      permalink: true
 
-docs_dir: docs_src
+extra:
+  pdfs:
+    - "docs_src/Manual_de_Usuario.pdf"
+    - "docs_src/Guia_de_Referencia.pdf"
+    - "docs_src/Guia_de_Instalacion.pdf"
