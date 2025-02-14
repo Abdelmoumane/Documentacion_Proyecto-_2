@@ -1,4 +1,6 @@
 site_name: Documentación del Proyecto
+docs_dir: docs_src  # Agregar esta línea para especificar la carpeta de documentos
+
 nav:
   - Inicio: index.md
   - Manual de Usuario: Manual_de_Usuario.md
