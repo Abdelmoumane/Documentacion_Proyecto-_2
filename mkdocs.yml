@@ -1,18 +1,14 @@
 site_name: Documentación del Proyecto
+nav:
+  - Inicio: index.md
+  - Manual de Usuario: Manual_de_Usuario.md
+  - Guía de Referencia: Guia_de_Referencia.md
+  - Guía de Instalación: Guia_de_Instalacion.md
+
 theme:
   name: material
 
-nav:
-  - "Manual de Usuario": "docs_src/Manual_de_Usuario.md"
-  - "Guía de Referencia": "docs_src/Guia_de_Referencia.md"
-  - "Guía de Instalación": "docs_src/Guia_de_Instalacion.md"
-
-markdown_extensions:
-  - toc:
-      permalink: true
-
-extra:
-  pdfs:
-    - "docs_src/Manual_de_Usuario.pdf"
-    - "docs_src/Guia_de_Referencia.pdf"
-    - "docs_src/Guia_de_Instalacion.pdf"
+plugins:
+  - search
+  - pdf-export:
+      verbose: true
